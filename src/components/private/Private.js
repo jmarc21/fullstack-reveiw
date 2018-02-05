@@ -7,8 +7,6 @@ class Private extends React.Component {
     componentDidMount() {
         this.props.getUserInfo()
     }
-
-
     bankBalance() {
         return '$' + Math.floor((Math.random() + 1) * 10000000) + '.00';
     }
